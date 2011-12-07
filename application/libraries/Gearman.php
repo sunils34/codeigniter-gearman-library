@@ -65,6 +65,7 @@ class Gearman
     {
         return $this->worker->work();
     }
+
     /**
      * Perform a job in background for a client
      * @access public
@@ -76,6 +77,19 @@ class Gearman
     {
         $this->client->doBackground($function,$param);
         log_message('debug', "Gearman Library: Performed task with function $function with parameter $param");
+    }
+
+    /**
+     * Perform a job in foreground for a client
+     * @access public
+     * @param string
+     * @param string
+     * @return string  
+     */
+    public function do_job_foreground($function, $param) 
+    {
+        log_message('debug', "Gearman Library: Performed task with function $function with parameter $param");
+        return $this->client->do($function,$param);
     }
 
     /**
