@@ -59,11 +59,11 @@ class Gearman
     /**
      * Listen for a job
      * @access public
-     * @return void
+     * @return bool true on sucess, false on failure 
      */
     public function work()
     {
-        $this->worker->work();
+        return $this->worker->work();
     }
     /**
      * Perform a job in background for a client
