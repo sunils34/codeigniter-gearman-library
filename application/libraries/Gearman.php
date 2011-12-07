@@ -2,6 +2,7 @@
 /**
  * Class to utilize Gearman http://gearman.org/
  * @author Aniruddha Kale
+ * @author Sunil Sadasivan <sunil@fancite.com>
  */
 class Gearman
 {

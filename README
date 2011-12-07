@@ -1,6 +1,6 @@
 codeigniter-gearman-library
 
-This is a library to use gearman within codeigniter.  The original source was pulled from Atharva here 
+This is a library to use gearman within codeigniter.  The original source was pulled from Aniruddha Kale here 
 http://codeigniter.com/wiki/Gearman/
 
 I created this repository to track the changes I make to the gearman library here. 
@@ -12,3 +12,6 @@ $this->load->library('gearman_library');
 $this->gearman_library->gearman_client();
 $this->gearman_library->do_job_background('identifier',serialize($params)); 
 
+Thanks,
+Sunil
+sunil@fancite.com
