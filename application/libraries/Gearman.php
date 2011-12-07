@@ -3,7 +3,7 @@
  * Class to utilize Gearman http://gearman.org/
  * @author Aniruddha Kale
  */
-class Gearman_library
+class Gearman
 {
 
     private $gearman_host = array();
