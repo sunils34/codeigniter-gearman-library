@@ -1,0 +1,6 @@
+codeigniter-gearman-library
+
+This is a library to use gearman within codeigniter.  The original source was pulled from Atharva here 
+http://codeigniter.com/wiki/Gearman/
+
+I plan to add the changes I make to this library here. 
